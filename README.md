@@ -9,20 +9,12 @@ Config files and useful information for setting up a new OSX machine.
 - [Using .condarc conda config file](https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#creating-and-editing)
 - [GitHub markdown guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
-## Config files
+## Executable Files
 
-**osx.sh**
-customize osx. make executable `chmod 755 osx.ch` and run `sh osx.sh` 
-**.condarc**
-Custom settings for conda
-**Preferences.sublime-settings**
-Custom settings for sublime text
-**Conda.sublime-settings**
-Custom settings for sublime-text-conda package. 
-**.zshrc**
-Custom settings for oh-my-zsh
-**.gitignore**
-Global gitignore. Add to global config with `git config --global core.excludesfile ~/.gitignore` 
+- **osx.sh** customize osx with write defaults and such 
+
+## Config Files
+[Clone from GitHub](https://git.autodesk.com/beamt/dotfiles)
 
 ## Install checklist
 
@@ -33,12 +25,12 @@ Package managers:
 ### Homebrew
 
 Homebrew Casks: 
-`brew update` --> Fetch latest version of homebrew and formula.
-`brew tap caskroom/cask` --> Tap the Caskroom/Cask repository from Github using HTTPS.
-`brew search [cask]` --> Searches all known Casks for a partial or exact match.
-`brew cask info [cask]` --> Displays information about the given Cask
-`brew cask install [cask]` --> Install the given cask.
-`brew cleanup` --> Remove any older versions from the cellar       
+- `brew update` --> Fetch latest version of homebrew and formula.
+- `brew tap caskroom/cask` --> Tap the Caskroom/Cask repository from Github using HTTPS.
+- `brew search [cask]` --> Searches all known Casks for a partial or exact match.
+- `brew cask info [cask]` --> Displays information about the given Cask
+- `brew cask install [cask]` --> Install the given cask.
+- `brew cleanup` --> Remove any older versions from the cellar       
 
 Z Shell (zsh) 
 - `brew install zsh` 
@@ -58,17 +50,18 @@ Git
 
 ### Conda
 dependencies installed automtically with consent. java develpment kit required prior to installing R.
-[ ] numpy
-[ ] pandas 
-[ ] scikit-learn
-[ ] ipython
-[ ] anaconda-navigator
-[ ] jupyterlab 
-[ ] matplotlib
-[ ] seaborn
-[ ] openjdk  --> conda forge 
-[ ] r-base
-[ ] r-tidyverse
-[ ] rstudio
+
+- [ ] numpy
+- [ ] pandas 
+- [ ] scikit-learn
+- [ ] ipython
+- [ ] anaconda-navigator
+- [ ] jupyterlab 
+- [ ] matplotlib
+- [ ] seaborn
+- [ ] openjdk  --> conda forge 
+- [ ] r-base
+- [ ] r-tidyverse
+- [ ] rstudio
 
 
