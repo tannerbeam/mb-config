@@ -44,6 +44,7 @@ packages to install:
 - conda
 - markdown extended
 - monokai extended
+- pretty JSON
 
 Git 
 - `brew install git` 
