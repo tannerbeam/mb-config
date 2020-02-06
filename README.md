@@ -41,7 +41,16 @@ Package managers:
 #### Sublime Text 
 - `brew cask install sublime-text`
 automatically adds a symlink for `subl [filename]` 
+<<<<<<< HEAD
 installed packages listed in `Package Control.sublime-settings`
+=======
+packages to install: 
+- package control
+- conda
+- markdown extended
+- monokai extended
+- pretty JSON
+>>>>>>> 15d6b157c4754f85383da83a9c7e2297d172a28e
 
 #### Git 
 - `brew install git` 
