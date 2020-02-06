@@ -1,5 +1,5 @@
 # mb-config
-Config files and useful information for setting up a new OSX machine. 
+Useful stuff for setting up a new OSX machine
 
 ## Useful Info 
 - [Mac setup checklist from Sourab Bajaj](https://sourabhbajaj.com/mac-setup/)
@@ -8,12 +8,14 @@ Config files and useful information for setting up a new OSX machine.
 - [Toggle dark mode keyboard shortcut](https://lifehacker.com/switch-between-dark-and-light-mode-on-your-mac-with-thi-1838488087)
 - [Using .condarc conda config file](https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html#creating-and-editing)
 - [GitHub markdown guide](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+- [How to sync Sublime packages across machines](https://packagecontrol.io/docs/syncing)
 
 ## Executable Files
 
-- **osx.sh** customize osx with write defaults and such 
+- **defaults-write.sh** customize osx with write defaults and such 
 
 ## Config Files
+Maintained in a different repo
 [Clone from GitHub](https://git.autodesk.com/beamt/dotfiles)
 
 ## Install checklist
@@ -24,7 +26,7 @@ Package managers:
 
 ### Homebrew
 
-Homebrew Casks: 
+#### Homebrew Casks: 
 - `brew update` --> Fetch latest version of homebrew and formula.
 - `brew tap caskroom/cask` --> Tap the Caskroom/Cask repository from Github using HTTPS.
 - `brew search [cask]` --> Searches all known Casks for a partial or exact match.
@@ -32,36 +34,21 @@ Homebrew Casks:
 - `brew cask install [cask]` --> Install the given cask.
 - `brew cleanup` --> Remove any older versions from the cellar       
 
-Z Shell (zsh) 
+#### ZShell (zsh) 
 - `brew install zsh` 
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
 
-Sublime Text 
+#### Sublime Text 
 - `brew cask install sublime-text`
 automatically adds a symlink for `subl [filename]` 
-packages to install: 
-- package control
-- conda
-- markdown extended
-- monokai extended
+installed packages listed in `Package Control.sublime-settings`
 
-Git 
+#### Git 
 - `brew install git` 
 
-### Conda
-dependencies installed automtically with consent. java develpment kit required prior to installing R.
+#### Conda
+Dependencies installed automtically with consent. JDK required prior to installing R. Add environment specifications to `environment.yml` files in GitHub repos.
 
-- [ ] numpy
-- [ ] pandas 
-- [ ] scikit-learn
-- [ ] ipython
-- [ ] anaconda-navigator
-- [ ] jupyterlab 
-- [ ] matplotlib
-- [ ] seaborn
-- [ ] openjdk  --> conda forge 
-- [ ] r-base
-- [ ] r-tidyverse
-- [ ] rstudio
+- `brew install miniconda`
 
 
