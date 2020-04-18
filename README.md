@@ -39,6 +39,10 @@ Package managers:
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`  
 - `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 
+#### Source Code Pro Font
+- `brew tap homebrew/cask-fonts`
+- `brew cask install font-source-code-pro`
+
 #### Sublime Text 
 - `brew cask install sublime-text`
 automatically adds a symlink for `subl [filename]` 
