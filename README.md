@@ -28,7 +28,7 @@ Package managers:
 
 #### Homebrew Casks: 
 - `brew update` --> Fetch latest version of homebrew and formula.
-- `brew tap caskroom/cask` --> Tap the Caskroom/Cask repository from Github using HTTPS.
+- `brew tap homebrew/cask` --> Tap the Caskroom/Cask repository from Github using HTTPS.
 - `brew search [cask]` --> Searches all known Casks for a partial or exact match.
 - `brew cask info [cask]` --> Displays information about the given Cask
 - `brew cask install [cask]` --> Install the given cask.
@@ -41,16 +41,15 @@ Package managers:
 #### Sublime Text 
 - `brew cask install sublime-text`
 automatically adds a symlink for `subl [filename]` 
-<<<<<<< HEAD
+
 installed packages listed in `Package Control.sublime-settings`
-=======
+
 packages to install: 
 - package control
 - conda
 - markdown extended
 - monokai extended
 - pretty JSON
->>>>>>> 15d6b157c4754f85383da83a9c7e2297d172a28e
 
 #### Git 
 - `brew install git` 
@@ -58,6 +57,6 @@ packages to install:
 #### Conda
 Dependencies installed automtically with consent. JDK required prior to installing R. Add environment specifications to `environment.yml` files in GitHub repos.
 
-- `brew install miniconda`
+- `brew cask install miniconda`
 
 
