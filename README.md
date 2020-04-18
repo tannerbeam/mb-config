@@ -20,11 +20,9 @@ Maintained in a different repo
 
 ## Install checklist
 
-Package managers:
-- [ ] Homebrew
-- [ ] Conda 
-
-### Homebrew
+#### iTerm2
+- `brew cask install iterm2` 
+- [iterm2 color schemes](https://iterm2colorschemes.com/)
 
 #### Homebrew Casks: 
 - `brew update` --> Fetch latest version of homebrew and formula.
